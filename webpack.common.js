@@ -37,9 +37,7 @@ module.exports = {
             options: {
               cacheDirectory: true,
               presets: [
-                [
-                  '@babel/preset-env',
-                  { targets: 'defaults' }],
+                ['@babel/preset-env', { targets: 'defaults' }],
                 '@babel/preset-react',
               ],
             },

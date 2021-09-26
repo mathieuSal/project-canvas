@@ -1,4 +1,4 @@
-import { sum } from './math';
+import { sum } from './math.ts';
 
 test('basic sum test', () => {
   expect(sum(10, 3)).toBe(13);

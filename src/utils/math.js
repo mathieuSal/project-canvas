@@ -1,6 +1,7 @@
-const sum = (a, b) => {
-  return parseFloat(a) + parseFloat(b);
+"use strict";
+exports.__esModule = true;
+exports.sum = void 0;
+var sum = function (a, b) {
+    return parseFloat(a) + parseFloat(b);
 };
-
-// eslint-disable-next-line import/prefer-default-export
-export { sum };
+exports.sum = sum;

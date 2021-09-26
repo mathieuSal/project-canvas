@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "webpack serve --color --config webpack.dev.js",
     "test": "jest --coverage",
-    "format": "prettier --write \"**/*.+(js|json|jsx)\" --ignore-path .gitignore"
+    "format": "prettier --write \"**/*.+(js|json|jsx)\" --ignore-path .gitignore",
+    "validate": "yarn format && yarn test"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
@@ -21,6 +22,7 @@
     "css-loader": "6.2.0",
     "eslint": "7.32.0",
     "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.4.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",

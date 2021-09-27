@@ -53,9 +53,9 @@
       },
       "plugins": ["@typescript-eslint/eslint-plugin"],
       "extends": [
-        "@typescript-eslint/eslint-recommended",
-        "@typescript-eslint/recommended",
-        "eslint-config-prettier/@typescript-eslint"
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
       ]
     }
   ]

@@ -1,10 +1,10 @@
-const isTest = String(process.env.NODE_ENV) === 'test'
+const isTest = String(process.env.NODE_ENV) === 'test';
 
-{
-  "presets": [
-    ["@babel/preset-env"],
-    "@babel/react",
-    "@babel/preset-typescript"
+module.exports = {
+  presets: [
+    ['@babel/preset-env', { modules: isTest ? 'commonjs' : false }],
+    '@babel/react',
+    '@babel/preset-typescript',
   ],
-  "plugins": ["@babel/plugin-proposal-object-rest-spread"]
-}
+  plugins: ['@babel/plugin-proposal-object-rest-spread'],
+};

@@ -1,0 +1,9 @@
+{
+  "$.+(js|ts|jsx|tsx)": [
+    "eslint"
+  ],
+  "**/*.+(js|json|jsx|ts|tsx)": [
+    "prettier --write",
+    "git add"
+  ]
+}

@@ -1,2 +1,13 @@
-# project-canvas
-basic set-up to start any react project
+# Infinite gallery
+
+### `yarn`
+
+-> Install dependencies
+
+### `yarn dev`
+
+-> Start project on `http://localhost:6400/`
+
+### `yarn test`
+
+-> Run test

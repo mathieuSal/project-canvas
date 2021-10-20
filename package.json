@@ -6,10 +6,10 @@
   "author": "Mathieu <mathieu.sal@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack serve --color --config webpack.dev.js",
+    "dev": "yarn validate && webpack serve --color --config webpack.dev.js",
     "test": "jest --coverage",
     "format": "prettier --write \"**/*.+(js|json|jsx|ts|tsx)\" --ignore-path .gitignore",
-    "validate": "yarn format && yarn tsc && yarn test"
+    "validate": "yarn format && yarn tsc --outDir dist && yarn test"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",

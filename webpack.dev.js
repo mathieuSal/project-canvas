@@ -19,7 +19,7 @@ module.exports = merge(common, {
     },
     historyApiFallback: true,
     compress: false,
-    hot: 'only',
+    hot: true,
     host: '0.0.0.0',
     port: 6400,
   },

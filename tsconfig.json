@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
     "baseUrl": "./src",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "target": "ES2015",
+    "noEmitOnError": true,
+    "strict": true,
   }
 }
